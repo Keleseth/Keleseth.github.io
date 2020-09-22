@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Vegur-Bold';
+    src: url(Font/Vegur/Vegur-B_0_600.otf) format("opentype");
+ }
+ 
+ @font-face {
+    font-family: 'Vegur-ExtraLight';
+    src: url(Font/Vegur/Vegur-EL_0500.otf) format("opentype");
+ }
+ 
+ @font-face {
+       font-family: 'Vegur-Light';
+       src: url(Font/Vegur/Vegur-L_0600.otf) format("opentype");
+    }
+ 
+ @font-face {
+       font-family: 'Vegur-Medium';
+       src:url(Font/Vegur/Vegur-M_0600.otf) format("opentype");
+ }
+ 
+ @font-face {
+       font-family: 'Vegur-Regular';
+       src:url(Font/Vegur/Vegur-R_0_600.otf) format("opentype");
+ }
+  
+ body {
+     margin: 0px;
+ }
+ 
+ header {  
+     display: flex;
+     justify-content: center;
+     background-image: linear-gradient(to top, #fefefe , #e6e6e6);
+     height: 80px;
+ }
+ 
+ .Items_menu {
+    display: inline-block; 
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Vegur-Medium';
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: -0.7px;
+    text-align: center;  
+ }
+ 
+ 
+ .Items_menu:hover {
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    background-color: black;
+    height: 50px; 
+ }
+ 
+ .line-invisible {
+    border-top-width: 0px;
+     border-right-width: 0px;
+     border-bottom-width: 0px;
+     border-left-width: 0px;
+     margin-block-start: 0px;
+     margin-block-end: 0px;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+ }
+
+ .img {
+    background: url(images/clouds.PNG) no-repeat;
+    background-size: 100%;
+    height: 200px;
+ }
+ 
+ .logo {
+   padding-top: 55px; 
+   margin-left: 15%;
+   font-family: 'Montez', cursive;
+   font-size: 80px;
+ }
+ 
+ .content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+ }
+
+ .text-content {
+    font-size: 35px;
+    font-family: 'Vegur-Light';
+    margin-bottom: 25px;
+    font-weight: lighter;
+ }
+
+ 
+
+ .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+ }
+
+.map {
+   display: block;
+   margin-top: 20px;
+}
+
+.address {
+  display: block;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4f4f4f;
+  line-height: 1.5;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+ 
+
+ .form label {
+    margin-bottom: 10px;
+    float: right;
+    font-family: Arial;
+    font-size: 15px;
+    color: #4f4f4f;
+ }
+
+ .form label input {
+   display: block;
+   float: right;
+   width: 300px;
+   border: solid 1px rgba(0, 0, 0, 0.1);
+   margin-left: 20px;
+ }
+
+ .fieldYourMessage {
+    height: 180px;
+ }
+
+ .form button {
+   display: block;
+   margin-left: 120px;
+   margin-top: 20px;
+   background: #0dc2ce;
+   border: none;
+   border-radius: 10px 10px 10px 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: white;
+   width: 150px;
+   outline: none;
+ }
+
+ .style-email {
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #0dc2ce;
+    text-decoration: underline;
+ }
+
+ .info-postaladdress {
+    margin: 5px 0px;
+    font-family: arial;
+    font-size: 15px;
+ }
+ 
+ .miscellaneous-info {
+    background-color: #efefef;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 10%;
+    padding-left: 10% ;  
+ }
+
+ h2 {
+    font-family: 'Vegur-Light';
+    font-weight: lighter;
+    font-size: 35px;
+    color: #151515;
+    margin-bottom: 20px;
+ }
+
+ .text-miscellaneous-info {
+   font-family: Arial;
+   font-size: 15px;
+   line-height: 1.5;
+   color: #181818;
+ }
+
+ .footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ .block2_0 {
+    float: right;
+  }
+ 
+  .footer-text {
+    display: block;
+    font-family: 'Vegur-Light';
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    line-height: 1.2;
+  }
+ 
+  .footer-text2 {
+     font-size: 30px;
+     display: block;
+     font-family: 'Vegur-Light';
+     margin-top: 40px;
+     color: #0dc2ce;
+  }
