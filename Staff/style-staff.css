@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Vegur-Bold';
+    src: url(Font/Vegur/Vegur-B_0_600.otf) format("opentype");
+ }
+ 
+ @font-face {
+    font-family: 'Vegur-ExtraLight';
+    src: url(Font/Vegur/Vegur-EL_0500.otf) format("opentype");
+ }
+ 
+ @font-face {
+       font-family: 'Vegur-Light';
+       src: url(Font/Vegur/Vegur-L_0600.otf) format("opentype");
+    }
+ 
+ @font-face {
+       font-family: 'Vegur-Medium';
+       src:url(Font/Vegur/Vegur-M_0600.otf) format("opentype");
+ }
+ 
+ @font-face {
+       font-family: 'Vegur-Regular';
+       src:url(Font/Vegur/Vegur-R_0_600.otf) format("opentype");
+ }
+  
+ body {
+     margin: 0px;
+ }
+ 
+ header {  
+     display: flex;
+     justify-content: center;
+     background-image: linear-gradient(to top, #fefefe , #e6e6e6);
+     height: 80px;
+ }
+ 
+ .Items_menu {
+    display: inline-block; 
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Vegur-Medium';
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: -0.7px;
+    text-align: center; 
+    
+ }
+ 
+ .Items_menu:hover {
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    background-color: black;
+    height: 50px;
+ }
+ 
+ hr {
+    border-top-width: 0px;
+     border-right-width: 0px;
+     border-bottom-width: 0px;
+     border-left-width: 0px;
+     margin-block-start: 0px;
+     margin-block-end: 0px;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+ }
+ 
+
+ 
+ .logo {
+   padding-top: 55px; 
+   margin-left: 15%;
+   font-family: 'Montez', cursive;
+   font-size: 80px;
+ }
+
+ .clouds {
+    background: url(images/clouds.PNG) no-repeat;
+    background-size: 100%;
+    height: 200px;
+ }
+
+ .our-staff{
+    font-family:'Vegur-Light';
+    margin-left: 12%;
+    line-height: 2;
+    font-size: 30px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: lighter;
+    margin-bottom: 10px;
+ }
+
+ .main-section {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .profile {
+   display: flex;
+   width: 950px;
+   height: 170px;
+   margin-left: 12%;
+   margin-right: 12%;
+   margin-bottom: 40px;
+ }
+
+ .profile-info {
+   margin-left: 20px;
+ }
+
+.staff-name {
+   font-family:'Vegur-Light';
+   font-size: 25px;
+   color: #0dc2ce;
+}
+
+.facebook-twiter {
+   float: right;
+}
+
+.profession {
+   font-family: Arial;  
+   font-weight: bold;
+   font-size: 20px;
+   padding-bottom: 15px;
+}
+
+.stylist {
+   display: inline-block;
+   margin-left: 20px;
+   margin-top: 15px;
+
+}
+
+.profile-text {
+   width: 600px;
+}
+
+p {
+   margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.details {
+   display: block;
+   background: #0dc2ce;
+   border: none;
+   border-radius: 10px 10px 10px 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 20px;
+   margin-left: 20px;
+   color: white;
+   text-align: center;
+   width: 120px;
+   outline: none;
+}
+
+.footer {
+   background-color: black;
+   display: flex;
+   justify-content: space-around;
+}
+
+.block2_0 {
+   float: right;
+ }
+
+ .footer-text {
+   display: block;
+   font-family: 'Vegur-Light';
+   font-size: 20px;
+   color: white;
+   margin-top: 40px;
+   line-height: 1.2;
+ }
+
+ .footer-text2 {
+    font-size: 30px;
+    display: block;
+    font-family: 'Vegur-Light';
+    margin-top: 40px;
+    color: #0dc2ce;
+ }
+
+
+
