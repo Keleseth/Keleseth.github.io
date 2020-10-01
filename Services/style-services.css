@@ -76,7 +76,9 @@
 
 .Operations-Consulting_and_Services-List {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-bottom: 30px;
 }
 
@@ -147,7 +149,9 @@ ul li {
 .why-choose-us_featured-services {
     background-color: #efefef;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-bottom: 50px;
 }
 
@@ -254,8 +258,8 @@ ul li {
     background-color: black;
     display: flex;
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 15%;
+    padding-left: 15%;
+    padding-right: 20%;
  }
  
  .block2_0 {

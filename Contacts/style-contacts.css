@@ -87,7 +87,9 @@
  
  .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 40px;
  }
 
@@ -175,8 +177,8 @@
     background-color: #efefef;
     padding-top: 20px;
     padding-bottom: 40px;
-    padding-right: 10%;
-    padding-left: 10% ;  
+    padding-right: 15%;
+    padding-left: 15% ;  
  }
 
  h2 {
@@ -198,7 +200,7 @@
     background-color: black;
     display: flex;
     justify-content: space-between;
-    padding-left: 10%;
+    padding-left: 15%;
     padding-right: 19%;
  }
  
