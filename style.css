@@ -191,7 +191,9 @@ hr {
 .footer {
   background-color: black;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 16%;
 }
 
 .block2_0 {
